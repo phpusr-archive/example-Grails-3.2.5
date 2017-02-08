@@ -12,7 +12,12 @@ class PostController {
         log.debug ">> hello: ${params}"
 
         params.max = Math.min(max ?: 10, 100)
-        respond Post.list(params), model:[postCount: Post.count()]
+        def list = null
+        Post.withoutHibernateFilters {
+            list = Post.list(params)
+        }
+
+        respond list, model:[postCount: Post.count()]
     }
 
     def show(Post post) {

@@ -10,4 +10,8 @@ class Post {
     String title
     String body
 
+    static hibernateFilters = {
+        enabledFilter(condition:'title="Hello"', default: true)
+    }
+
 }
