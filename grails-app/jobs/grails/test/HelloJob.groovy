@@ -6,6 +6,6 @@ class HelloJob {
     }
 
     def execute() {
-        log.info '>> Hello user!'
+        log.debug '>> Hello user!'
     }
 }
