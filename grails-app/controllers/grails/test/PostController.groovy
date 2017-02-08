@@ -9,6 +9,8 @@ class PostController {
     static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
 
     def index(Integer max) {
+        log.debug ">> hello: ${params}"
+
         params.max = Math.min(max ?: 10, 100)
         respond Post.list(params), model:[postCount: Post.count()]
     }
