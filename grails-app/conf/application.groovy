@@ -1,6 +1,7 @@
 
 
 // Added by the Spring Security Core plugin:
+grails.plugin.springsecurity.active = false
 grails.plugin.springsecurity.userLookup.userDomainClassName = 'graphicandtabel.auth.User'
 grails.plugin.springsecurity.userLookup.authorityJoinClassName = 'graphicandtabel.auth.UserRole'
 grails.plugin.springsecurity.authority.className = 'graphicandtabel.auth.Role'
