@@ -30,6 +30,8 @@ class PostController {
 
     @Transactional
     def save(Post post) {
+        log.error("params: ${params}")
+
         if (post == null) {
             transactionStatus.setRollbackOnly()
             notFound()

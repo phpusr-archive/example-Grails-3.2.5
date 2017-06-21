@@ -99,7 +99,7 @@ dataSource:
 environments:
     development:
         dataSource:
-            dbCreate: none
+            dbCreate: create
             url: jdbc:mysql://localhost/test?MVCC=TRUE&LOCK_TIMEOUT=10000
             username: root
             password: 100500
