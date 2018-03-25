@@ -5,7 +5,7 @@ server:
 grails:
     profile: web
     codegen:
-        defaultPackage: grails.test
+        defaultPackage: grailstest
     spring:
         transactionManagement:
             proxies: false
