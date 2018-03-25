@@ -1,6 +1,7 @@
-package grails.test
+package grailstest
 
 import grails.test.mixin.TestFor
+import grailstest.RedisController
 import spock.lang.Specification
 
 /**

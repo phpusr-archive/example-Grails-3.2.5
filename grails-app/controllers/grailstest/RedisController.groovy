@@ -1,4 +1,4 @@
-package grails.test
+package grailstest
 
 import redis.clients.jedis.Jedis
 

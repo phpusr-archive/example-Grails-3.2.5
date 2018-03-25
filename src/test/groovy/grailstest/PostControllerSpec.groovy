@@ -1,6 +1,8 @@
-package grails.test
+package grailstest
 
+import grails.test.Post
 import grails.test.mixin.*
+import grailstest.PostController
 import spock.lang.*
 
 @TestFor(PostController)

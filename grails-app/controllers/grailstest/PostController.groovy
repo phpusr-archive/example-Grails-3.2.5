@@ -1,4 +1,6 @@
-package grails.test
+package grailstest
+
+import grails.test.Post
 
 import static org.springframework.http.HttpStatus.*
 import grails.transaction.Transactional

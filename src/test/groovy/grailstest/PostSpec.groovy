@@ -1,5 +1,6 @@
-package grails.test
+package grailstest
 
+import grails.test.Post
 import grails.test.mixin.TestFor
 import spock.lang.Specification
 

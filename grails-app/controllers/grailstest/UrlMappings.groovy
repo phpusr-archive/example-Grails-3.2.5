@@ -1,4 +1,4 @@
-package grails.test
+package grailstest
 
 class UrlMappings {
 
